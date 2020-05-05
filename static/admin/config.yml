@@ -12,6 +12,8 @@ media_folder: static/img
 public_folder: /img
 
 collections:
+  - name: "test-collection"
+    label: "Test collection"
   - name: "blog"
     label: "Blog"
     folder: "src/pages/blog"
