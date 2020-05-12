@@ -1,6 +1,8 @@
 backend:
-  name: git-gateway
-  local_backend: true
+  # name: git-gateway
+  # local_backend: true
+  name: github
+  repo: Meid-KH/bloggify
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
     update: "Update {{collection}} “{{slug}}”"
