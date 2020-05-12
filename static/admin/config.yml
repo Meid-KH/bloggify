@@ -14,19 +14,19 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "test-collection"
-    label: "Test collection"
-    folder: "src/pages/test-collection"
-    create: true
-    fields:
-      - {
-          label: "Template Key",
-          name: "templateKey",
-          widget: "hidden",
-          default: "test-collection",
-        }
-      - { label: "The title", name: "the-title", widget: "string" }
-      - { label: "The description", name: "the-description", widget: "text" }
+  # - name: "test-collection"
+  #   label: "Test collection"
+  #   folder: "src/pages/test-collection"
+  #   create: true
+  #   fields:
+  #     - {
+  #         label: "Template Key",
+  #         name: "templateKey",
+  #         widget: "hidden",
+  #         default: "test-collection",
+  #       }
+  #     - { label: "The title", name: "the-title", widget: "string" }
+  #     - { label: "The description", name: "the-description", widget: "text" }
   - name: "blog"
     label: "Blog"
     folder: "src/pages/blog"
